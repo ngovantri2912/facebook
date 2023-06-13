@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 780px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    background-color: rgb(87, 87, 186);
+    height: 12vh;
+    align-items: center;
+}
+header h1 {
+    color: #fff;
+    font-size: 2.4rem;
+    flex: 2;
+}
+.info{
+    margin-right: 15px;
+    display: flex;
+    color: #fff;
+    gap: 1em;
+    flex: 1.28;
+}
+.tendangnhap, .password {
+    width: 100%;
+}
+.info button{
+    cursor: pointer;
+  width: 40%;
+  height: 30px;
+  align-self: center;
+  background-color: rgb(87, 87, 186);
+  color: #fff;
+  border: #000 2px solid;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.info .thongtin {
+    outline: none;
+    width: 95%;
+    padding: 2px 0;
+    margin-top: 5px;
+}
+.nhomatkhau {
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+}
+.nhomatkhau a {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.quenmatkhau a{
+    margin-top: 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    width: 100%;
+    background-color: #f0eded;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+main .right {
+    flex: 1.3;
+}
+main .left {
+    flex: 2;
+}
+main .left{
+    margin-left: 10px;
+}
+main h2 {
+    width: 60%;
+    font-size: 2.2rem;
+    margin-top: 60px;
+}
+main ul {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+main ul li {
+    font-size: 1.3rem;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+main ul li span {
+    color: #6c6a6a;
+}
+main ul li p {
+    color: #000;
+    font-weight: 600;
+}
+.right {
+    margin-top: 20px;
+}
+.right h1 {
+    font-size: 2.7rem;
+}
+.right .title span {
+    font-size: 1.5rem;
+}
+.right .name {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.right .name input {
+    width: 46.5%;
+}
+form {
+    width: 100%;
+}
+.right input {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    width: 95%;
+    padding:5px 10px ;
+    border-radius: 4px;
+    outline: none;
+    border: #ccc 1px solid;
+}
+.right .birthday{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.right .ngaysinh {
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.right .ngaysinh select{
+    padding: 5px 3px;
+}
+.right .ngaysinh a {
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-style: italic;
+    color:rgb(87, 87, 186) ;
+}
+.right .gioitinh{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 10px;
+}
+.right .gioitinh label {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.desc{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.desc a {
+    text-decoration: none;
+    cursor: pointer;
+color: rgb(87, 87, 186) ;
+}
+.right .register {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 2px #8b8585 solid;
+    padding-bottom: 15px;
+}
+.right .register input {
+    width: 30%;
+    background-color: rgb(105, 158, 25);
+    border: 1px #000 solid;
+    color: #fff;
+    border-radius: 4px;
+}
+.right .register input:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.language {
+    width: 100%;
+}
+.language ul {
+    margin-top: 10px;
+    display: flex;
+    gap: 2em;
+    width: 100%;
+}
+.language ul li {
+    list-style: none;
+}
+.language ul a {
+    text-decoration: none;
+    color:rgb(87, 87, 186) ;
+}
+.language ul p {
+    padding: 2px 3px;
+    background-color: #f0eded;
+}
+.language ul:first-child{
+    border-bottom: 1px solid #bbb6b6;
+    padding-bottom: 4px;
+}
+.language ul:nth-child(2){
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
